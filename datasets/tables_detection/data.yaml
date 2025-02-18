@@ -1,0 +1,13 @@
+train: C:/Users/Administrator/Desktop/Skripsi/datasets/tables_detection/train/images
+val: C:/Users/Administrator/Desktop/Skripsi/datasets/tables_detection/valid/images
+test: C:/Users/Administrator/Desktop/Skripsi/datasets/tables_detection/test/images
+
+nc: 1
+names: ['tables']
+
+roboflow:
+  workspace: dji-drwyw
+  project: tables-detection
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/dji-drwyw/tables-detection/dataset/1
